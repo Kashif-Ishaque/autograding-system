@@ -24,6 +24,8 @@ jobs:
         pip install pytest  # Change if you're using a different testing framework
 
     - name: Run tests
+      env:
+        PYTHONPATH: ${{ github.workspace }}  # Set PYTHONPATH to the root directory
       run: |
         pytest solutions/test_assignment1.py  # Adjust according to your test file
         pytest solutions/test_fibonacci.py
