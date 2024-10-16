@@ -1,9 +1,3 @@
-
-### Sample Solution for Assignment 1
-
-**File**: `solutions/solution.py`
-
-```python
 def calculate(a, b, operation):
     if operation == "add":
         return a + b
