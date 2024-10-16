@@ -1,5 +1,5 @@
 import unittest
-from solution import fibonacci  # Make sure the student submits the function in solution.py
+from solutions.solution import fibonacci  # Use this import statement
 
 class TestFibonacci(unittest.TestCase):
 
